@@ -1,33 +1,9 @@
 <!DOCTYPE <html>
 <html>
 <head>
-  <meta charset="UTF-8">
   <title>Binaire Stelsel</title>
 </head>
 <body>
-  <h1>Binaire stelsel</h1>
-  <p>Het binaire stelsel gebruikt alleen de cijfers 0 en 1.</p>
-
-  <h2>Decimaal naar Binair</h2>
-  <input id="decimaal" type="number" placeholder="Voer een getal in">
-  <button onclick="naarBinair()">Omzetten</button>
-  <p id="uitkomstBinair"></p>
-
-  <h2>Binair naar Decimaal</h2>
-  <input id="binair" type="text" placeholder="Voer een binaire reeks in">
-  <button onclick="naarDecimaal()">Omzetten</button>
-  <p id="uitkomstDecimaal"></p>
-
-  <script>
-    function naarBinair() {
-      var getal = document.getElementById("decimaal").value;
-      document.getElementById("uitkomstBinair").innerText = "Binair: " + Number(getal).toString(2);
-    }
-
-    function naarDecimaal() {
-      var reeks = document.getElementById("binair").value;
-      document.getElementById("uitkomstDecimaal").innerText = "Decimaal: " + parseInt(reeks, 2);
-    }
-  </script>
+  
 </body>
 </html>
