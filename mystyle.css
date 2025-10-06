@@ -92,3 +92,17 @@ ul li a:hover {
   transform: scale(1.05);    /* Wordt iets groter */
   transition: 0.2s;
 }
+
+.IPO {
+  position: fixed;          /* Houdt de afbeelding vast aan de onderkant van het scherm */
+  bottom: 0;                /* Plaatst de afbeelding aan de onderkant */
+  left: 50%;                /* Zet de afbeelding in het midden van de pagina (horizontaal) */
+  transform: translateX(-50%); /* Verplaatst de afbeelding exact naar het midden */
+  margin-bottom: 10px;      /* Voeg wat ruimte toe onder de afbeelding (optioneel) */
+}
+
+.IPO img {
+  width: 100%;              /* Afbeelding neemt de volledige breedte in beslag */
+  max-width: 500px;         /* Zorg ervoor dat de afbeelding niet te groot wordt */
+  height: auto;             /* Houd de verhoudingen van de afbeelding intact */
+}
