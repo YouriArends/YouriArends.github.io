@@ -104,6 +104,6 @@ ul li a:hover {
 
 .IPO img {
   width: 100%;              /* Afbeelding neemt de volledige breedte in beslag */
-  max-width: 500px;         /* Zorg ervoor dat de afbeelding niet te groot wordt */
+  min-width: 500px;         /* Zorg ervoor dat de afbeelding niet te groot wordt */
   height: auto;             /* Houd de verhoudingen van de afbeelding intact */
 }
