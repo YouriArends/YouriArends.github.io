@@ -1,28 +1,34 @@
-
-
-h1 {color: #00ffff;
-margin-left: 20px;
+/* ====== TITELS ====== */
+h1 {
+  color: #00ffff;        /* Lichtblauw */
+  margin-left: 20px;     /* Klein beetje ruimte links */
 }
-body {
-  background-color: black;
+
+h2 {
   color: white;
-}
- 
-h2 {color: #ffffff;
-margin-left: 20px;
-text-align: center;
+  text-align: center;    /* Tekst in het midden */
+  margin-left: 20px;
 }
 
+/* ====== ACHTERGROND & TEKST ====== */
+body {
+  background-color: black;   /* Zwarte achtergrond */
+  color: white;              /* Witte tekst */
+  font-family: Arial;        /* Simpel leesbaar lettertype */
+}
+
+/* ====== NAVIGATIEBALK ====== */
 ul {
-  list-style-type: none;
+  list-style-type: none;     /* Geen bolletjes */
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #b0b0b0;
+  background-color: #b0b0b0; /* Grijze achtergrond */
 }
 
 ul li {
-  float: left;
+  float: left;               /* Zet menu-items naast elkaar */
+  width: 250px;              /* Gelijke breedte voor elke knop */
 }
 
 ul li a {
@@ -30,43 +36,50 @@ ul li a {
   color: white;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;
+  text-decoration: none;     /* Geen onderstreping */
 }
 
 ul li a:hover {
-  background-color: #111111;}
+  background-color: #111;    /* Donkergrijs als je erover gaat */
+}
 
-  li{
-    width: 250px;
-  }
-
+/* ====== INFO-VAK (zoals #myDIV) ====== */
 #myDIV {
-  border: 2px solid white;   
+  border: 2px solid white;
   padding: 10px;
   width: 500px;
   margin: 20px auto;
   text-align: center;
   border-radius: 10px;
-  background-color: black;   
-  color: white;    
-  float: left;          
+  background-color: black;
+  color: white;
 }
 
+/* ====== DE BOXEN ====== */
 .container {
-  display: flex;              /* Zorgt dat de boxen naast elkaar staan */
-  gap: 10px;                  /* Ruimte tussen de boxen */
-  justify-content: center;    /* Centraal uitlijnen (optioneel) */
-  margin: 20px;
+  display: flex;             /* Zet de boxen naast elkaar */
+  justify-content: center;   /* Plaatst ze in het midden van de pagina */
+  gap: 20px;                 /* Ruimte tussen de boxen */
+  margin-top: 30px;
 }
 
 .box {
-  border: 2px solid black;    /* Border rond elk blok */
-  width: 150px;               /* Gelijke breedte */
-  height: 150px;              /* Gelijke hoogte */
-  display: flex;              /* Flex om tekst te centreren */
-  justify-content: center;    /* Horizontaal centreren */
-  align-items: center;        /* Verticaal centreren */
-  background-color: white;    /* Achtergrondkleur */
-  font-weight: bold;
+  width: 200px;              /* Even brede boxen */
+  height: 180px;             /* Even hoge boxen */
+  background-color: #111;    /* Donkergrijze achtergrond */
+  color: white;              /* Witte tekst */
+  border: 2px solid white;   /* Witte rand */
+  border-radius: 15px;       /* Mooie ronde hoeken */
+  display: flex;             /* Zorgt dat de tekst in het midden komt */
+  flex-direction: column;    /* Tekst boven elkaar (titel en uitleg) */
+  justify-content: center;   /* Verticaal centreren */
+  align-items: center;       /* Horizontaal centreren */
+  padding: 10px;
 }
 
+/* Klein effect als je met je muis over een box gaat */
+.box:hover {
+  background-color: #333;    /* Iets lichter grijs */
+  transform: scale(1.05);    /* Wordt iets groter */
+  transition: 0.2s;
+}
