@@ -56,7 +56,7 @@ ul li a:hover {
 }
 
 /* ====== DE BOXEN ====== */
-.container {
+.boxen {
   display: flex;             /* Zet de boxen naast elkaar */
   justify-content: center;   /* Plaatst ze in het midden van de pagina */
   gap: 20px;                 /* Ruimte tussen de boxen */
