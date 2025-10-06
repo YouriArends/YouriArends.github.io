@@ -99,11 +99,11 @@ ul li a:hover {
   bottom: 0;                /* Plaatst de afbeelding aan de onderkant */
   left: 50%;                /* Zet de afbeelding in het midden van de pagina (horizontaal) */
   transform: translateX(-50%); /* Verplaatst de afbeelding exact naar het midden */
-  margin-bottom: 75px;      /* Voeg wat ruimte toe onder de afbeelding (optioneel) */
+  margin-bottom: 50px;      /* Voeg wat ruimte toe onder de afbeelding (optioneel) */
 }
 
 .IPO img {
   width: 100%;              /* Afbeelding neemt de volledige breedte in beslag */
-  min-width: 500px;         /* Zorg ervoor dat de afbeelding niet te groot wordt */
+  min-width: 350px;         /* Zorg ervoor dat de afbeelding niet te groot wordt */
   height: auto;             /* Houd de verhoudingen van de afbeelding intact */
 }
