@@ -63,10 +63,12 @@ ul li a:hover {
 
 /* ====== DE BOXEN ====== */
 .boxen {
-  display: flex;             /* Zet de boxen naast elkaar */
-  justify-content: center;   /* Plaatst ze in het midden van de pagina */
-  gap: 20px;                 /* Ruimte tussen de boxen */
-  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  width: 60%;
+  margin: 0 auto;
+  padding: 0 20%;
 }
 
 .box {
