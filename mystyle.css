@@ -37,3 +37,14 @@ ul li a:hover {
   li{
     width: 250px;
   }
+
+  }
+#myDIV {
+  height:300px;
+  background-color:#FFFFFF;
+  border: 1px solid black;
+  border-radius:25
+  px;
+  padding:20px;
+}
+  ,
