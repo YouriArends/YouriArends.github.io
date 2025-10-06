@@ -48,5 +48,6 @@ ul li a:hover {
   text-align: center;
   border-radius: 10px;
   background-color: black;   
-  color: white;              
+  color: white;    
+  float: left;          
 }
