@@ -52,14 +52,21 @@ ul li a:hover {
   float: left;          
 }
 
-#my2DIV {
-   border: 2px solid white;   
-  padding: 10px;
-  width: 500px;
-  margin: 20px auto;
-  text-align: center;
-  border-radius: 10px;
-  background-color: black;   
-  color: white;  
-  float:right;
+.container {
+  display: flex;              /* Zorgt dat de boxen naast elkaar staan */
+  gap: 10px;                  /* Ruimte tussen de boxen */
+  justify-content: center;    /* Centraal uitlijnen (optioneel) */
+  margin: 20px;
 }
+
+.box {
+  border: 2px solid black;    /* Border rond elk blok */
+  width: 150px;               /* Gelijke breedte */
+  height: 150px;              /* Gelijke hoogte */
+  display: flex;              /* Flex om tekst te centreren */
+  justify-content: center;    /* Horizontaal centreren */
+  align-items: center;        /* Verticaal centreren */
+  background-color: white;    /* Achtergrondkleur */
+  font-weight: bold;
+}
+
