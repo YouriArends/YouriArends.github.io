@@ -65,10 +65,10 @@ ul li a:hover {
 .boxen {
   display: flex;
   justify-content: flex-start;
-  gap: 5px;
-  width: 60%;
+  gap: 20px;
+  width: 70%;
   margin: 0 auto;
-  padding: 0 20%;
+  padding: 0 15%;
 }
 
 .box {
