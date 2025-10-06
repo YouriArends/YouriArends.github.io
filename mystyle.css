@@ -98,7 +98,7 @@ ul li a:hover {
   bottom: 0;                /* Plaatst de afbeelding aan de onderkant */
   left: 50%;                /* Zet de afbeelding in het midden van de pagina (horizontaal) */
   transform: translateX(-50%); /* Verplaatst de afbeelding exact naar het midden */
-  margin-bottom: 10px;      /* Voeg wat ruimte toe onder de afbeelding (optioneel) */
+  margin-bottom: 40px;      /* Voeg wat ruimte toe onder de afbeelding (optioneel) */
 }
 
 .IPO img {
