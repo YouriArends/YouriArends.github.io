@@ -16,7 +16,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333333;
+  background-color: #00ffff;
 }
 
 ul li {
@@ -41,8 +41,8 @@ ul li a:hover {
 
 #myDIV {
   height:300px;
-  background-color:#FFFFFF;
-  border: 1px solid black;
+  background-color:#000000;
+  border: 1px solid rgb(255, 255, 255);
   border-radius:25
   px;
   padding:20px;
