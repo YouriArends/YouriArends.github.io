@@ -7,6 +7,7 @@ title {
 
 h1 {
   color: #00ffff;        /* Lichtblauw */
+  text-align: center;
   margin-left: 20px;     /* Klein beetje ruimte links */
 }
 
@@ -34,7 +35,7 @@ ul {
 
 ul li {
   float: left;               /* Zet menu-items naast elkaar */
-  width: 250px;              /* Gelijke breedte voor elke knop */
+  width: 350px;              /* Gelijke breedte voor elke knop */
 }
 
 ul li a {
