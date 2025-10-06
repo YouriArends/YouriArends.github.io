@@ -39,12 +39,12 @@ ul li a:hover {
   }
 
 #myDIV {
-  border: 2px solid white;   /* Witte rand */
+  border: 2px solid white;   
   padding: 10px;
   width: 200px;
   margin: 20px auto;
   text-align: center;
   border-radius: 10px;
-  background-color: black;   /* Zwarte achtergrond */
-  color: white;              /* Witte tekst, zodat je het goed ziet */
+  background-color: black;   
+  color: white;              
 }
