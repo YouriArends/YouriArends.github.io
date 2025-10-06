@@ -65,7 +65,7 @@ ul li a:hover {
 
 .box {
   width: 200px;              /* Even brede boxen */
-  height: 180px;             /* Even hoge boxen */
+ min-height: 250px;           /* Even hoge boxen */
   background-color: #111;    /* Donkergrijze achtergrond */
   color: white;              /* Witte tekst */
   border: 2px solid white;   /* Witte rand */
