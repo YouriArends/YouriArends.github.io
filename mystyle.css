@@ -64,15 +64,16 @@ ul li a:hover {
 /* ====== DE BOXEN ====== */
 .boxen {
   display: flex;
-  justify-content: space-between;
-  gap: 20px;
+  justify-content: flex-start;
+  gap: 5px;
   width: 60%;
   margin: 0 auto;
   padding: 0 20%;
 }
 
 .box {
-  width: 200px;              /* Even brede boxen */
+  flex: 1;
+  min-width: 150px ;            /* Even brede boxen */
  min-height: 250px;           /* Even hoge boxen */
   background-color: #111;    /* Donkergrijze achtergrond */
   color: white;              /* Witte tekst */
@@ -82,7 +83,7 @@ ul li a:hover {
   flex-direction: column;    /* Tekst boven elkaar (titel en uitleg) */
   justify-content: center;   /* Verticaal centreren */
   align-items: center;       /* Horizontaal centreren */
-  padding: 10px;
+  padding: 20px;
 }
 
 /* Klein effect als je met je muis over een box gaat */
