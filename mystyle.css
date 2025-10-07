@@ -1,27 +1,23 @@
 /* ====== TITELS ====== */
-title {
-  color:#00ffff;
-  margin-left: 20px;
-  text-align: center;
-}
-
 h1 {
   color: #00ffff;        /* Lichtblauw */
-  text-align: center;
-  margin-left: 20px;     /* Klein beetje ruimte links */
+  text-align: center;    /* In het midden */
+  margin: 20px 0;
 }
 
 h2 {
   color: white;
-  text-align: center;    /* Tekst in het midden */
-  margin-left: 20px;
+  text-align: center;
+  margin: 10px 20px;
 }
 
 /* ====== ACHTERGROND & TEKST ====== */
 body {
   background-color: black;   /* Zwarte achtergrond */
   color: white;              /* Witte tekst */
-  font-family: Arial;        /* Simpel leesbaar lettertype */
+  font-family: Arial;        /* Simpel lettertype */
+  margin: 0;
+  padding: 0;
 }
 
 /* ====== NAVIGATIEBALK ====== */
@@ -30,7 +26,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #b0b0b0; /* Grijze achtergrond */
+  background-color: #b0b0b0; /* Grijze balk */
 }
 
 ul li {
@@ -47,10 +43,10 @@ ul li a {
 }
 
 ul li a:hover {
-  background-color: #111;    /* Donkergrijs als je erover gaat */
+  background-color: #111;    /* Donkergrijs bij hover */
 }
 
-/* ====== INFO-VAK (zoals #myDIV) ====== */
+/* ====== INFO-VAK ====== */
 #myDIV {
   border: 2px solid white;
   padding: 10px;
@@ -62,48 +58,51 @@ ul li a:hover {
   color: white;
 }
 
-/* ====== DE BOXEN ====== */
+/* ====== BOXEN ====== */
 .boxen {
-  display: flex;
-  justify-content: flex-start;
-  gap: 20px;
-  width: 70%;
-  margin: 0 auto;
-  padding: 0 15%;
+  display: flex;               /* Zet de boxen naast elkaar */
+  justify-content: center;     /* In het midden van het scherm */
+  align-items: flex-start;     /* Bovenaan uitlijnen */
+  flex-wrap: wrap;             /* Springt naar de volgende regel op kleine schermen */
+  gap: 20px;                   /* Ruimte tussen de boxen */
+  max-width: 1000px;           /* Beperk de totale breedte */
+  margin: 40px auto;           /* Midden op de pagina */
+  padding: 0 10px;
 }
 
 .box {
-  flex: 1;
-  min-width: 150px ;            /* Even brede boxen */
- min-height: 250px;           /* Even hoge boxen */
-  background-color: #111;    /* Donkergrijze achtergrond */
-  color: white;              /* Witte tekst */
-  border: 2px solid white;   /* Witte rand */
-  border-radius: 15px;       /* Mooie ronde hoeken */
-  display: flex;             /* Zorgt dat de tekst in het midden komt */
-  flex-direction: column;    /* Tekst boven elkaar (titel en uitleg) */
-  justify-content: center;   /* Verticaal centreren */
-  align-items: center;       /* Horizontaal centreren */
+  background-color: #111;      /* Donkere achtergrond */
+  color: white;                /* Witte tekst */
+  border: 2px solid white;     /* Witte rand */
+  border-radius: 15px;         /* Ronde hoeken */
+  width: 280px;                /* Gelijke breedte */
+  min-height: 200px;           /* Gelijke hoogte */
+  display: flex;               /* Gebruik flexbox voor centreren */
+  flex-direction: column;      /* Tekst boven elkaar */
+  justify-content: center;     /* Verticaal centreren */
+  align-items: center;         /* Horizontaal centreren */
   padding: 20px;
+  text-align: center;
+  box-sizing: border-box;
 }
 
-/* Klein effect als je met je muis over een box gaat */
 .box:hover {
-  background-color: #333;    /* Iets lichter grijs */
-  transform: scale(1.05);    /* Wordt iets groter */
+  background-color: #333;      /* Iets lichter bij hover */
+  transform: scale(1.05);      /* Beetje vergroten */
   transition: 0.2s;
 }
 
+/* ====== AFBEELDING (IPO) ====== */
 .IPO {
-  position: fixed;          /* Houdt de afbeelding vast aan de onderkant van het scherm */
-  bottom: 0;                /* Plaatst de afbeelding aan de onderkant */
-  left: 50%;                /* Zet de afbeelding in het midden van de pagina (horizontaal) */
-  transform: translateX(-50%); /* Verplaatst de afbeelding exact naar het midden */
-  margin-bottom: 50px;      /* Voeg wat ruimte toe onder de afbeelding */
+  display: flex;               /* Centraal uitlijnen */
+  justify-content: center;
+  margin-top: 30px;
 }
 
 .IPO img {
-  width: 100%;              /* Afbeelding neemt de volledige breedte in beslag */
-  min-width: 350px;         /* Zorg ervoor dat de afbeelding niet te groot wordt */
-  height: auto;             /* Houd de verhoudingen van de afbeelding intact */
+  width: 60%;                  /* Niet te groot */
+  max-width: 600px;            /* Beperk maximale breedte */
+  min-width: 250px;            /* Niet te klein */
+  height: auto;                /* Behoud verhoudingen */
+  border-radius: 10px;         /* Ronde hoeken */
 }
