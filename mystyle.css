@@ -61,33 +61,34 @@ ul li a:hover {
 /* ====== BOXEN ====== */
 .boxen {
   display: flex;               /* Zet de boxen naast elkaar */
-  justify-content: center;     /* In het midden van het scherm */
-  align-items: flex-start;     /* Bovenaan uitlijnen */
-  flex-wrap: wrap;             /* Springt naar de volgende regel op kleine schermen */
-  gap: 20px;                   /* Ruimte tussen de boxen */
-  max-width: 1000px;           /* Beperk de totale breedte */
-  margin: 40px auto;           /* Midden op de pagina */
-  padding: 0 10px;
+  justify-content: center;     /* Zet de boxen in het midden van de pagina */
+  align-items: flex-start;     /* Zorg dat ze bovenaan gelijk staan */
+  gap: 30px;                   /* Ruimte tussen de boxen */
+  margin-top: 40px;            /* Ruimte boven de boxen */
 }
 
+/* ====== EEN BOX ====== */
 .box {
   background-color: #111;      /* Donkere achtergrond */
   color: white;                /* Witte tekst */
   border: 2px solid white;     /* Witte rand */
   border-radius: 15px;         /* Ronde hoeken */
-  width: 280px;                /* Gelijke breedte */
-  min-height: 200px;           /* Gelijke hoogte */
-  display: flex;               /* Gebruik flexbox voor centreren */
-  flex-direction: column;      /* Tekst boven elkaar */
+  width: 300px;                /* Even brede boxen */
+  height: 250px;               /* Even hoge boxen */
+  display: flex;               /* Om tekst te centreren */
+  flex-direction: column;      /* Tekst boven elkaar (titel en uitleg) */
   justify-content: center;     /* Verticaal centreren */
   align-items: center;         /* Horizontaal centreren */
   padding: 20px;
   text-align: center;
-  box-sizing: border-box;
+  box-sizing: border-box;      /* Padding telt niet extra op bij breedte */
+  font-family: Arial;
+  font-size: 16px;
 }
 
+/* Effect bij hover (optioneel, maar leuk) */
 .box:hover {
-  background-color: #333;      /* Iets lichter bij hover */
+  background-color: #333;      /* Wordt iets lichter */
   transform: scale(1.05);      /* Beetje vergroten */
   transition: 0.2s;
 }
