@@ -93,7 +93,7 @@ ul li a:hover {
   transition: 0.2s;
 }
 
-/* ====== AFBEELDING (IPO) ====== */
+/* ====== AFBEELDING ====== */
 .plaatje {
   display: flex;               /* Centraal uitlijnen */
   justify-content: center;
@@ -108,7 +108,7 @@ ul li a:hover {
   border-radius: 10px;         /* Ronde hoeken */
 }
 
-.Kleurmodellen img {
+.kleurmodellen img {
   width: 60%;                  /* Niet te groot */
   max-width: 600px;            /* Beperk maximale breedte */
   min-width: 250px;            /* Niet te klein */
