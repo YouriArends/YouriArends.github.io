@@ -100,7 +100,7 @@ ul li a:hover {
   margin-top: 30px;
 }
 
-.IPO img {
+.IPO {
   width: 60%;                  /* Niet te groot */
   max-width: 600px;            /* Beperk maximale breedte */
   min-width: 250px;            /* Niet te klein */
@@ -108,7 +108,7 @@ ul li a:hover {
   border-radius: 10px;         /* Ronde hoeken */
 }
 
-.kleurmodellen img {
+.kleurmodellen {
   width: 60%;                  /* Niet te groot */
   max-width: 600px;            /* Beperk maximale breedte */
   min-width: 250px;            /* Niet te klein */
