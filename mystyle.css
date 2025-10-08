@@ -31,7 +31,7 @@ ul {
 
 ul li {
   float: left;               /* Zet menu-items naast elkaar */
-  width: 350px;              /* Gelijke breedte voor elke knop */
+  width: 375px;              /* Gelijke breedte voor elke knop */
 }
 
 ul li a {
