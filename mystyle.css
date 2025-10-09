@@ -94,13 +94,12 @@ ul li a:hover {
 }
 
 /* ====== AFBEELDING ====== */
-.plaatje {
-  display: flex;               /* Centraal uitlijnen */
-  justify-content: center;
-  margin-top: 30px;
-}
+
 
 .IPO {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
   width: 60%;                  /* Niet te groot */
   max-width: 600px;            /* Beperk maximale breedte */
   min-width: 250px;            /* Niet te klein */
@@ -109,6 +108,9 @@ ul li a:hover {
 }
 
 .kleurmodellen {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
   width: 60%;                  /* Niet te groot */
   max-width: 600px;            /* Beperk maximale breedte */
   min-width: 250px;            /* Niet te klein */
