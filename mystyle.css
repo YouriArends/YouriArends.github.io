@@ -86,7 +86,7 @@ ul li a:hover {
   font-size: 16px;
 }
 
-/* Effect bij hover (optioneel, maar leuk) */
+/* Effect bij hover */
 .box:hover {
   background-color: #333;      /* Wordt iets lichter */
   transform: scale(1.05);      /* Beetje vergroten */
