@@ -73,8 +73,8 @@ ul li a:hover {
   color: white;                /* Witte tekst */
   border: 2px solid white;     /* Witte rand */
   border-radius: 15px;         /* Ronde hoeken */
-  width: 300px;                /* Even brede boxen */
-  height: 250px;               /* Even hoge boxen */
+  width: 500px;                /* Even brede boxen */
+  height: 400px;               /* Even hoge boxen */
   display: flex;               /* Om tekst te centreren */
   flex-direction: column;      /* Tekst boven elkaar (titel en uitleg) */
   justify-content: center;     /* Verticaal centreren */
