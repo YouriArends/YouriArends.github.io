@@ -97,13 +97,12 @@ ul li a:hover {
   display: flex;
   justify-content: center;
   margin-top: 30px;
-  width: 60%;                  /* Niet te groot */
-  max-width: 600px;            /* Beperk maximale breedte */
-  min-width: 250px;            /* Niet te klein */
-  height: auto;                /* Behoud verhoudingen */
-  border-radius: 10px;         /* Ronde hoeken */
 }
 
+.invoer img {
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
 .kleurmodellen {
   display: flex;
   justify-content: center;
