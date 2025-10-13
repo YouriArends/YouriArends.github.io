@@ -122,3 +122,13 @@ ul li a:hover {
   margin-bottom: 30px;
   border-radius: 10px;
 }
+
+.compressie {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.compressie img {
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
