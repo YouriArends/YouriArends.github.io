@@ -1,4 +1,4 @@
-/* ====== TITELS ====== */
+/* == TITELS == */
 h1 { /* h1 tag starten */
   color: #00ffff; /* Tekstkleur lichtblauw */
   text-align: center; /* Tekst gecentreerd */
@@ -11,7 +11,7 @@ h2 { /* h2 tag starten */
   margin: 10px 20px; /* Ruimte boven/onder en zijkanten */
 } /* h2 tag sluiten */
 
-/* ====== ACHTERGROND & TEKST ====== */
+/* == ACHTERGROND & TEKST == */
 body { /* body tag starten */
   background-color: black; /* Achtergrond zwart */
   color: white; /* Tekstkleur wit */
@@ -46,7 +46,7 @@ ul li a:hover { /* Hover effect starten */
   background-color: #111; /* Achtergrond donkergrijs bij hover */
 } /* Hover effect sluiten */
 
-/* ====== INFO-VAK ====== */
+/* == INFO-VAK == */
 #myDIV { /* Div met id myDIV starten */
   border: 2px solid white; /* Witte rand */
   padding: 10px; /* Binnenruimte */
