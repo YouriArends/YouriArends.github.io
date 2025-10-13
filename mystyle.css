@@ -81,9 +81,7 @@ ul li a:hover {
   align-items: center;         /* Horizontaal centreren */
   padding: 20px;
   text-align: center;           
-  box-sizing: border-box;      /* Padding telt niet extra op bij breedte */
-  font-family: Arial;
-  font-size: 16px;
+ 
 }
 
 /* Effect bij hover */
