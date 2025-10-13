@@ -77,7 +77,7 @@ ul li a:hover {
   height: 400px;               /* Even hoge boxen */
   display: flex;               /* Om tekst te centreren */
   flex-direction: column;      /* Tekst boven elkaar (titel en uitleg) */
-  justify-content: center;     /* Verticaal centreren */
+  justify-content:center;     /* Verticaal centreren */
   align-items: center;         /* Horizontaal centreren */
   padding: 20px;
   text-align: center;           
