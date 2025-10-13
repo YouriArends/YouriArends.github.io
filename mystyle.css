@@ -112,3 +112,13 @@ ul li a:hover {
   margin-bottom: 30px;
   border-radius: 10px;
 }
+
+.binair {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.binair {
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
