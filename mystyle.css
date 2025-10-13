@@ -63,8 +63,8 @@ ul li a:hover {
   display: flex;               /* Zet de boxen naast elkaar */
   justify-content: center;     /* Zet de boxen in het midden van de pagina */
   align-items: flex-start;     /* Zorg dat ze bovenaan gelijk staan */
-  gap: 30px;                   /* Ruimte tussen de boxen */
-  margin-top: 40px;            /* Ruimte boven de boxen */
+  gap: 200px;                   /* Ruimte tussen de boxen */
+  margin-top: 50px;            /* Ruimte boven de boxen */
 }
 
 /* == EEN BOX == */
