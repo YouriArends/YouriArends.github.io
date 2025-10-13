@@ -63,7 +63,7 @@ ul li a:hover {
   display: flex;               /* Zet de boxen naast elkaar */
   justify-content: center;     /* Zet de boxen in het midden van de pagina */
   align-items: flex-start;     /* Zorg dat ze bovenaan gelijk staan */
-  gap: 200px;                   /* Ruimte tussen de boxen */
+  gap: 20px;                   /* Ruimte tussen de boxen */
   margin-top: 50px;            /* Ruimte boven de boxen */
 }
 
@@ -74,7 +74,7 @@ ul li a:hover {
   border: 3px solid white;     /* Witte rand */
   border-radius: 18px;         /* Ronde hoeken */
   width: 600px;                /* Even brede boxen */
-  height: 250px;               /* Even hoge boxen */
+  height: 300px;               /* Even hoge boxen */
   display: flex;               /* Om tekst te centreren */
   flex-direction: column;      /* Tekst boven elkaar (titel en uitleg) */
   justify-content:center;     /* Verticaal centreren */
@@ -112,7 +112,7 @@ ul li a:hover {
 }
 
 .kleurmodellen img {
-  width: 60%;          /* Past in de container */
+  width: 60%;          
   max-width: 600px;
   min-width: 250px;
   height: auto;
