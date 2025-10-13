@@ -74,7 +74,7 @@ ul li a:hover {
   border: 3px solid white;     /* Witte rand */
   border-radius: 18px;         /* Ronde hoeken */
   width: 600px;                /* Even brede boxen */
-  height: 400px;               /* Even hoge boxen */
+  height: 250px;               /* Even hoge boxen */
   display: flex;               /* Om tekst te centreren */
   flex-direction: column;      /* Tekst boven elkaar (titel en uitleg) */
   justify-content:center;     /* Verticaal centreren */
