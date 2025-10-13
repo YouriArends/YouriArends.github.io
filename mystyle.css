@@ -115,12 +115,13 @@ ul li a:hover {
 
 .binair {
   display: flex;
+  justify-content: center;
   margin-top: 30px;
 }
 .binair img {
   margin-bottom: 30px;
   border-radius: 10px;
- justify-content: center;
+ 
 }
 
 .compressie {
