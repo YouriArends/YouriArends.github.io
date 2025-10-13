@@ -74,7 +74,7 @@ ul li a:hover { /* Hover effect starten */
   border: 3px solid white; /* Witte rand */
   border-radius: 18px; /* Ronde hoeken */
   width: 600px; /* Breedte */
-  height: 450px; /* Hoogte */
+  height: 410px; /* Hoogte */
   display: flex; /* Flexbox voor inhoud */
   flex-direction: column; /* Verticaal stapelen */
   justify-content:center; /* Verticaal centreren */
