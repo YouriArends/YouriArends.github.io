@@ -1,135 +1,132 @@
 /* ====== TITELS ====== */
-h1 {
-  color: #00ffff;        /* Lichtblauw */
-  text-align: center;    /* In het midden */
-  margin: 20px 0;
-}
+h1 { /* h1 tag starten */
+  color: #00ffff; /* Tekstkleur lichtblauw */
+  text-align: center; /* Tekst gecentreerd */
+  margin: 20px 0; /* Ruimte boven en onder */
+} /* h1 tag sluiten */
 
-h2 {
-  color: white;
-  text-align: center;
-  margin: 10px 20px;
-}
+h2 { /* h2 tag starten */
+  color: white; /* Tekstkleur wit */
+  text-align: center; /* Tekst gecentreerd */
+  margin: 10px 20px; /* Ruimte boven/onder en zijkanten */
+} /* h2 tag sluiten */
 
 /* ====== ACHTERGROND & TEKST ====== */
-body {
-  background-color: black;   /* Zwarte achtergrond */
-  color: white;              /* Witte tekst */
-  font-family: Arial;        /* Simpel lettertype */
-  margin: 0;
-  padding: 0;
-}
+body { /* body tag starten */
+  background-color: black; /* Achtergrond zwart */
+  color: white; /* Tekstkleur wit */
+  font-family: Arial; /* Lettertype Arial */
+  margin: 0; /* Geen standaard marge */
+  padding: 0; /* Geen standaard padding */
+} /* body tag sluiten */
 
 /* ====== NAVIGATIEBALK ====== */
-ul {
-  list-style-type: none;     /* Geen bolletjes */
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #b0b0b0; /* Grijze balk */
-}
+ul { /* ul tag starten */
+  list-style-type: none; /* Geen bolletjes bij lijst */
+  margin: 0; /* Geen marge */
+  padding: 0; /* Geen padding */
+  overflow: hidden; /* Voorkomt overflow */
+  background-color: #b0b0b0; /* Grijze achtergrond */
+} /* ul tag sluiten */
 
-ul li {
-  float: left;               /* Zet menu-items naast elkaar */
-  width: 375px;              /* Gelijke breedte voor elke knop */
-}
+ul li { /* li tag starten */
+  float: left; /* Zet items naast elkaar */
+  width: 375px; /* Breedte van elk menu-item */
+} /* li tag sluiten */
 
-ul li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;     /* Geen onderstreping */
-}
+ul li a { /* a tag in li starten */
+  display: block; /* Maak link blok-element */
+  color: white; /* Tekstkleur wit */
+  text-align: center; /* Tekst gecentreerd */
+  padding: 14px 16px; /* Binnenruimte */
+  text-decoration: none; /* Geen onderstreping */
+} /* a tag sluiten */
 
-ul li a:hover {
-  background-color: #111;    /* Donkergrijs bij hover */
-}
+ul li a:hover { /* Hover effect starten */
+  background-color: #111; /* Achtergrond donkergrijs bij hover */
+} /* Hover effect sluiten */
 
 /* ====== INFO-VAK ====== */
-#myDIV {
-  border: 2px solid white;
-  padding: 10px;
-  width: 500px;
-  margin: 20px auto;
-  text-align: center;
-  border-radius: 10px;
-  background-color: black;
-  color: white;
-}
+#myDIV { /* Div met id myDIV starten */
+  border: 2px solid white; /* Witte rand */
+  padding: 10px; /* Binnenruimte */
+  width: 500px; /* Breedte */
+  margin: 20px auto; /* Centraal met marge boven/onder */
+  text-align: center; /* Tekst gecentreerd */
+  border-radius: 10px; /* Ronde hoeken */
+  background-color: black; /* Achtergrond zwart */
+  color: white; /* Tekstkleur wit */
+} /* myDIV sluiten */
 
 /* == BOXEN == */
-.boxen {
-  display: flex;               /* Zet de boxen naast elkaar */
-  justify-content: center;     /* Zet de boxen in het midden van de pagina */
-  align-items: flex-start;     /* Zorg dat ze bovenaan gelijk staan */
-  gap: 20px;                   /* Ruimte tussen de boxen */
-  margin-top: 50px;            /* Ruimte boven de boxen */
-}
+.boxen { /* Box container starten */
+  display: flex; /* Flexbox gebruiken */
+  justify-content: center; /* Horizontaal centreren */
+  align-items: flex-start; /* Verticaal bovenaan uitlijnen */
+  gap: 20px; /* Ruimte tussen boxen */
+  margin-top: 50px; /* Ruimte boven container */
+} /* Box container sluiten */
 
 /* == EEN BOX == */
-.box {
-  background-color: #111;      /* Donkere achtergrond */
-  color: white;                /* Witte tekst */
-  border: 3px solid white;     /* Witte rand */
-  border-radius: 18px;         /* Ronde hoeken */
-  width: 600px;                /* Even brede boxen */
-  height: 325px;               /* Even hoge boxen */
-  display: flex;               /* Om tekst te centreren */
-  flex-direction: column;      /* Tekst boven elkaar (titel en uitleg) */
-  justify-content:center;     /* Verticaal centreren */
-  align-items: center;         /* Horizontaal centreren */
-  padding: 20px;
-  text-align: center;           
- 
-}
+.box { /* Box starten */
+  background-color: #111; /* Donkere achtergrond */
+  color: white; /* Tekstkleur wit */
+  border: 3px solid white; /* Witte rand */
+  border-radius: 18px; /* Ronde hoeken */
+  width: 600px; /* Breedte */
+  height: 325px; /* Hoogte */
+  display: flex; /* Flexbox voor inhoud */
+  flex-direction: column; /* Verticaal stapelen */
+  justify-content:center; /* Verticaal centreren */
+  align-items: center; /* Horizontaal centreren */
+  padding: 20px; /* Binnenruimte */
+  text-align: center; /* Tekst centreren */
+} /* Box sluiten */
 
 /* Effect bij hover */
-.box:hover {
-  background-color: #333;      /* Wordt iets lichter */
-  transform: scale(1.05);      /* Beetje vergroten */
-  transition: 0.2s;
-}
+.box:hover { /* Hover effect starten */
+  background-color: #333; /* Achtergrond iets lichter */
+  transform: scale(1.05); /* Iets vergroten */
+  transition: 0.2s; /* Animatie tijd */
+} /* Hover effect sluiten */
 
 /* == plaatjes == */
+.invoer { /* Container invoer starten */
+  display: flex; /* Flexbox */
+  justify-content: center; /* Horizontaal centreren */
+  margin-top: 35px; /* Ruimte boven */
+} /* Container invoer sluiten */
+.invoer img { /* Afbeelding invoer starten */
+  margin-bottom: 30px; /* Ruimte onder afbeelding */
+  border-radius: 10px; /* Ronde hoeken */
+} /* Afbeelding invoer sluiten */
 
-.invoer {
-  display: flex;
-  justify-content: center;
-  margin-top: 35px;
-}
-.invoer img {
-  margin-bottom: 30px;
-  border-radius: 10px;
-}
+.kleurmodellen { /* Container kleurmodellen starten */
+  display: flex; /* Flexbox */
+  justify-content: center; /* Horizontaal centreren */
+  margin-top: 30px; /* Ruimte boven */
+} /* Container kleurmodellen sluiten */
+.kleurmodellen img { /* Afbeelding kleurmodellen starten */
+  margin-bottom: 30px; /* Ruimte onder afbeelding */
+  border-radius: 10px; /* Ronde hoeken */
+} /* Afbeelding kleurmodellen sluiten */
 
-.kleurmodellen {
-  display: flex;
-  justify-content: center;
-  margin-top: 30px;
-}
-.kleurmodellen img {
-  margin-bottom: 30px;
-  border-radius: 10px;
-}
+.binair { /* Container binair starten */
+  display: flex; /* Flexbox */
+  justify-content: center; /* Horizontaal centreren */
+  margin-top: 30px; /* Ruimte boven */
+} /* Container binair sluiten */
+.binair img { /* Afbeelding binair starten */
+  margin-bottom: 30px; /* Ruimte onder afbeelding */
+  border-radius: 10px; /* Ronde hoeken */
+} /* Afbeelding binair sluiten */
 
-.binair {
-  display: flex;
-  justify-content: center;
-  margin-top: 30px;
-}
-.binair img {
-  margin-bottom: 30px;
-  border-radius: 10px;
- 
-}
-
-.compressie {
-  display: flex;
-  justify-content: center;
-  margin-top: 30px;
-}
-.compressie img {
-  margin-bottom: 30px;
-  border-radius: 10px;
-}
+.compressie { /* Container compressie starten */
+  display: flex; /* Flexbox */
+  justify-content: center; /* Horizontaal centreren */
+  margin-top: 30px; /* Ruimte boven */
+} /* Container compressie sluiten */
+.compressie img { /* Afbeelding compressie starten */
+  margin-bottom: 30px; /* Ruimte onder afbeelding */
+  border-radius: 10px; /* Ronde hoeken */
+} /* Afbeelding compressie sluiten */
